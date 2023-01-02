@@ -31,14 +31,19 @@ function Header({}: Props) {
             className="flex flex-row items-center"
             >
     <SocialIcon url="https://www.instagram.com/martilaurier"
+    className="hover:text-[#f7AB0A]"
     fgColor="gray"
     bgColor="transparent"/>
         <SocialIcon url="https://github.com/laurent-martinez"
+    className="hover:text-[#f7AB0A]"
     fgColor="gray"
     bgColor="transparent"/>
-        <SocialIcon url="https://www.instagram.com/martilaurier"
+        <SocialIcon 
+    className="hover:text-[#f7AB0A]"
+    url="https://www.instagram.com/martilaurier"
     fgColor="gray"
     bgColor="transparent"/>
+
         </motion.div>
         <motion.div
             initial={{
@@ -54,13 +59,13 @@ function Header({}: Props) {
             transition={{
                 duration: .800,
             }}
-            className="flex flex-row items-center text-gray-300 cursor-pointer"
+            className="flex flex-row items-center text-gray-300 cursor-pointer hover:text-[#f7AB0A]"
             >
         
             <SocialIcon
+            className=" cursor-pointer hover:bg-clip-[#f7AB0A]"
             url="#contact"
             network="email"
-            className="cursor-pointer"
             fgColor="gray"
             bgColor="transparent"
             />

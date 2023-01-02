@@ -4,10 +4,12 @@ import emailjs from '@emailjs/browser';
 type Props = {}
 
 export default function Contact({}: Props) {
-    const form = useRef();
-    const sendEmail = (e : any) => {
+    const form = useRef<HTMLFormElement>(null);
+    const sendEmail = (e:any) => {
       e.preventDefault();
-      emailjs.sendForm('service_v95kjva', 'template_lhu6j0l', form.current, 'NPe4hyp1niL-4pHbD')
+      const currentForm = form.current;
+      if(currentForm == null ) return;
+      emailjs.sendForm('service_v95kjva', 'template_lhu6j0l', currentForm, 'NPe4hyp1niL-4pHbD')
         .then((result) => {
             console.log(result.text);
         }, (error) => {

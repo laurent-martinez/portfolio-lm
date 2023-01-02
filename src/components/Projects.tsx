@@ -16,7 +16,7 @@ export default function Projects({}: Props) {
                             <h4 className='font-semibold text-center text-4xl'><span className='underline decoration-[#F7AB0A]/50'>Agency site n°1</span> </h4>
                             <p className='text-lg text-center md:text-left'>This website is designed to help you quickly and easily register as a new employee of our company. By completing the registration process, you will gain access to our employee portal,
                              which provides a range of resources and tools to help you succeed in your role.
-                             To get started, click the "Register" button below. You will be asked to provide some personal and professional information, including your name, contact details, and job title. You may also be required to upload some documents, such as proof of identification and employment eligibility.</p>
+                             To get started, click the Register button below. You will be asked to provide some personal and professional information, including your name, contact details, and job title. You may also be required to upload some documents, such as proof of identification and employment eligibility.</p>
                         </div>
 
                     </div>
