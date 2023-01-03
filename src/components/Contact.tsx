@@ -20,7 +20,7 @@ export default function Contact({}: Props) {
     <div className='flex flex-col relative text-center md:text-left md:flex-row max-x-7xl    h-screen  mx-auto items-center justify-evenly px-10 '>
     <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>Contact</h3>
     <form ref={form} onSubmit={sendEmail}  className='flex flex-col space-y-2 w-fit mx-auto'>
-      <div className='flex md:flex-row space-x-2'>
+      <div className='flex flex-col md:flex-row space-x-2'>
         <div className='flex flex-col'>
       <label>Name</label>
       <input className='contact-input' type="text" name="user_name" />

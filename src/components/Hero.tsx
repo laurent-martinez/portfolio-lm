@@ -23,7 +23,7 @@ export default function Hero({}: Props) {
             <span className='dark:text-white text-gray-700 mr-3'>{text}</span>
             <Cursor cursorColor='#F7AB0A'/>
         </h1>
-        <div className='pt-5 flex justify-evenly'>
+        <div className='pt-5 flex flex-col md:flex-row justify-evenly'>
             <Link href="#about"><div className='heroButton'>{t('hero.menu.about')}</div></Link>
             <Link href="#experience"><div className='heroButton'>{t('hero.menu.experiences')}</div></Link>
             <Link href="#skills"><div className='heroButton'>{t('hero.menu.skills')}</div></Link>

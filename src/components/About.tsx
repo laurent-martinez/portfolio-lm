@@ -11,7 +11,7 @@ export default function About({}: Props) {
         <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>{t('About.title')}</h3>
         <Image
         src={AboutPic}
-        className='rounded-full mb-20 md:mb-0 flex-shrink-0 object-cover w-56 h-56 md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
+        className='rounded-full mt-[9em] md:mb-0 md:mt-0 flex-shrink-0 object-cover w-56 h-56 md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
         alt='picture of me'
         />
         <div className='space-y-10 px-0 md:px-10'>
