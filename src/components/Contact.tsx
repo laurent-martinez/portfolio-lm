@@ -29,17 +29,17 @@ export default function Contact({}: Props) {
     <form ref={form} onSubmit={sendEmail}  className='flex flex-col space-y-2 w-fit mx-auto'>
       <div className='flex flex-col md:flex-row space-x-2'>
         <div className='flex flex-col'>
-      <label>Name</label>
+      <label htmlFor='user_name'>Name</label>
       <input className='contact-input' type="text" name="user_name" />
         </div>
       <div className='flex flex-col'>
-      <label>Email</label>
+      <label htmlFor='user_email'>Email</label>
       <input className='contact-input' type="email" name="user_email" />
       </div>
       </div>
-      <label>Subject</label>
+      <label htmlFor='subject' >Subject</label>
       <input className='contact-input' type="text" name="subject" />
-      <label>Message</label>
+      <label htmlFor='message' >Message</label>
       <textarea className='contact-input' name="message" />
       <button type="submit" value="Send" className='bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg'>Send</button>
     </form>

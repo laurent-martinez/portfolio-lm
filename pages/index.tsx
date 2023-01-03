@@ -26,6 +26,8 @@ export default function Home({}: Props) {
     <div className={theme === 'light' ? 'bg-[#FFFFFF] text-black h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0  scrollbar-none md:scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80' : 'bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 dark scrollbar-thin md:scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'}>
       <Head>
         <title>Laurent Martinez</title>
+        <meta name="description" content="Laurent Martinez portfolio"/>
+        <link rel='icon'href='/favicon1.svg'/>
       </Head>
       <Header/>
       {/* Hero */}
