@@ -72,7 +72,7 @@ function Header({}: Props) {
         
        
             <p className="uppercase hidden md:inline-flex text-sm text-gray-400">{t('header.contact')}</p>
-            <select className="px-3 py-1 mx-5" onChange={handleLangChange}>
+            <select className="px-3 py-1 mx-5 bg-gray-200 text-[rgb(36,36,36)] " onChange={handleLangChange}>
                 <option value="en">EN</option>
                 <option value="fr">FR</option>
             </select>

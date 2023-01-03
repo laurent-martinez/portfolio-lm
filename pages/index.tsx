@@ -9,6 +9,7 @@ import Contact from '../src/components/Contact';
 import Technos from '../src/components/Technos';
 import Projects from '../src/components/Projects';
 import Link from 'next/link';
+import Head from 'next/head';
 
 
 
@@ -22,7 +23,10 @@ type Props = {}
 export default function Home({}: Props) {
   const {theme, setTheme} = useTheme()
   return (
-    <div className={theme === 'light' ? 'bg-[#FFFFFF] text-black h-screen snap-y snap-mandatory overflow-y-scroll overflox-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80' : 'bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 dark scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'}>
+    <div className={theme === 'light' ? 'bg-[#FFFFFF] text-black h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0  scrollbar-none md:scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80' : 'bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 dark scrollbar-thin md:scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'}>
+      <Head>
+        <title>Laurent Martinez</title>
+      </Head>
       <Header/>
       {/* Hero */}
       <section id='hero' className='snap-start'>
