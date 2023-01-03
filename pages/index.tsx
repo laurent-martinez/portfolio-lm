@@ -57,7 +57,7 @@ export default function Home({}: Props) {
          <Image src='/top.svg' alt='photo profil avatar' className='rounded-full h-18 w-18 filter grayscale hover:grayscale-0 cursor-pointer' width={35} height={35}/>
        </div>
       </Link>
-      <button  onClick={()=> setTheme(theme === 'light' ? 'dark' : 'light') }className=' bg-purple-500 dark:bg-purple-700 hover:bg-purple-700 dark:hover:bg-purple-500 text-white dark:text-purple font-bold py-2 px-4 rounded z-500 flex  justify-end items-end'  >{theme === 'light' ? <Image src="/moon.svg" alt="moon vector" width={32} height={32}
+      <button  onClick={()=> setTheme(theme === 'light' ? 'dark' : 'light') }className=' bg-[#F7AB0A] dark:bg-gray-400 hover:bg-gray-400 dark:hover:bg-[#F7AB0A] text-white dark:text-white font-bold py-2 px-4 rounded z-500 flex  justify-end items-end'  >{theme === 'light' ? <Image src="/moon.svg" alt="moon vector" width={32} height={32}
       /> : <Image src="/sun.svg" alt="sun vector" width={32} height={32}/>}</button>
       </footer>
     </div>

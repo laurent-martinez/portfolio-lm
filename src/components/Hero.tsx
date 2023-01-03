@@ -16,7 +16,7 @@ export default function Hero({}: Props) {
   return (
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
         <BackgroundCircle />
-        <Image className='relative object-cover mx-auto rounded-full' src='/moi2.png' alt="my avatar" width={128} height={128}/>
+        <Image className='relative object-cover mx-auto rounded-full' src='/reactzordi.png' alt="my avatar" width={150} height={150}/>
         <div className='z-20'>
         <h2 className='uppercase text-sm text-gray-500 pb-2 tracking-[15px]'>{t('hero.title')}</h2>
         <h1 className='text-5xl lg:text-6xl font-bold px-10'>
