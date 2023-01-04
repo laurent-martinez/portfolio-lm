@@ -16,7 +16,7 @@ export default function About({}: Props) {
         />
         <div className='space-y-10 px-0 md:px-10'>
             <h4 className='text-4xl font-semibold'>{t('About.subTitle')}</h4>
-            <p className='text-base p-5'>{t('About.text')} 💻💡🎨</p>
+            <p className='text-base p-5 line-clamp-6 sm:line-clamp-none'>{t('About.text')} 💻💡🎨</p>
         </div>
         </div>
   )
