@@ -13,7 +13,7 @@ function Header({}: Props) {
         i18n.changeLanguage(e.target.value)
     }
   return (
-    <header className="sticky top-0 flex p-5 items-start justify-between max-w-7x1 mx-auto z-20 xl:items-center ">
+    <header className="sticky top-0 flex sm:p-5 items-start justify-between max-w-7x1 mx-auto z-20 xl:items-center ">
             <motion.div
             initial={{
                 x: -500,

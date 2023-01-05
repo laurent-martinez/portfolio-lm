@@ -8,7 +8,7 @@ export default function Projects({}: Props) {
 
   return (
     <div className='h-screen flex flex-col mx-0 sm:mx-auto items-center justify-evenly relative overflow-hidden text-left md:flex-row max-w-full z-0'>
-             <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>Projects</h3>
+             <h3 className='absolute top-14 sm:top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>Projects</h3>
              <div className='relative overflow-x-scroll overflow-y-hidden scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 w-full flex snap-x snap-mandatory z-20'>
                 { projects.map((project,index) =>(
                     <div key={index} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20'>
