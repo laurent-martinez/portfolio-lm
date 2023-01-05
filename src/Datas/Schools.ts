@@ -6,7 +6,7 @@ const schools = {
         dos: new Date('2021-11-23').toLocaleDateString(),
         doe: new Date('2022-12-23').toLocaleDateString(),
         technos: [{name: 'React',img: '/react.svg'}, {name: 'Redux.svg', img: '/redux.svg'},{name: 'Js', img: '/logos_javascript.svg'}],
-        summary: ['Maitrise d\'un framework front-end','React','Sass','Redux','Html','Css']
+        summary: ['Framework front-end','React','Sass','Redux','Html','Css']
     },
     thp: {
             logo: '/thp1.png',
