@@ -12,3 +12,14 @@
     }
 }
 
+@layer base {
+    @font-face {
+        font-family: 'aqua';
+        font-weight: 700;
+        src: url('/fonts/aqua.ttf') format('ttf');
+    }
+    @font-face {
+        font-family: 'roboto';
+        src: url('/fonts/RobotoSlab-Thin.ttf') format('ttf');
+    }
+}

@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import reactLogoGold from '../../public/reactzordi.png';
 import {Cursor,useTypewriter} from "react-simple-typewriter"
 import BackgroundCircle from './BackgroundCircle'
 import {useTranslation} from "react-i18next";
@@ -16,18 +17,18 @@ export default function Hero({}: Props) {
   return (
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
         <BackgroundCircle />
-        <Image className='relative object-cover mx-auto rounded-full' src='/reactzordi.png' alt="my avatar" width={150} height={150}/>
+        <Image className='relative object-cover mx-auto rounded-full' src={reactLogoGold} alt="my avatar" width={150} height={150} priority={true}/>
         <div className='z-20'>
-        <h2 className='uppercase text-sm text-gray-500 pb-2 tracking-[15px]'>{t('hero.title')}</h2>
-        <h1 className='text-5xl lg:text-6xl font-bold px-10'>
-            <span className='dark:text-white text-gray-700 mr-3'>{text}</span>
+        <h2 className='uppercase text-sm text-gray-500 pb-2 tracking-[15px] font-roboto leading-8'>{t('hero.title')}</h2>
+        <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold px-10'>
+            <span className='dark:text-white text-gray-700 mr-3 font-aqua'>{text}</span>
             <Cursor cursorColor='#F7AB0A'/>
         </h1>
         <div className='pt-5 px-10 md:px-0 flex flex-col md:flex-row justify-evenly'>
-            <Link href="#about"><div className='heroButton'>{t('hero.menu.about')}</div></Link>
-            <Link href="#experience"><div className='heroButton'>{t('hero.menu.experiences')}</div></Link>
-            <Link href="#skills"><div className='heroButton'>{t('hero.menu.skills')}</div></Link>
-            <Link href="#projects"><div className='heroButton'>{t('hero.menu.projects')}</div></Link>
+            <Link href="#about"><div className='heroButton font-roboto'>{t('hero.menu.about')}</div></Link>
+            <Link href="#experience"><div className='heroButton font-roboto'>{t('hero.menu.experiences')}</div></Link>
+            <Link href="#skills"><div className='heroButton font-roboto'>{t('hero.menu.skills')}</div></Link>
+            <Link href="#projects"><div className='heroButton font-roboto'>{t('hero.menu.projects')}</div></Link>
         </div>
         </div>
     </div>

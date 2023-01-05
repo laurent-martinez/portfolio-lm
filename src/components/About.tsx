@@ -7,7 +7,7 @@ type Props = {}
 export default function About({}: Props) {
   const {t} = useTranslation('en',{useSuspense: false});
   return (
-    <div className='flex flex-col relative text-center md:text-left md:flex-row h-screen max-w-7xl mx-auto items-center justify-evenly p-10px '>
+    <div className='flex flex-col relative text-center md:text-left md:flex-row h-screen max-w-7xl mx-auto items-center justify-center sm:justify-evenly p-10px '>
         <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>{t('About.title')}</h3>
         <Image
         src={AboutPic}
@@ -15,8 +15,8 @@ export default function About({}: Props) {
         alt='picture of me'
         />
         <div className='space-y-10 px-0 md:px-10'>
-            <h4 className='text-4xl font-semibold'>{t('About.subTitle')}</h4>
-            <p className='text-base p-5 line-clamp-6 sm:line-clamp-none'>{t('About.text')} 💻💡🎨</p>
+            <h4 className='text-4xl font-semibold font-aqua'>{t('About.subTitle')}</h4>
+            <p className='text-base p-5 line-clamp-6 sm:line-clamp-none font-roboto font-medium'>{t('About.text')} 💻💡🎨</p>
         </div>
         </div>
   )
