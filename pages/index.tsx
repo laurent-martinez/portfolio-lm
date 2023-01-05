@@ -51,7 +51,7 @@ export default function Home({}: Props) {
       <section id='contact' className='snap-start'>
         <Contact />
       </section>
-      <footer className='mb-15 cursor-pointer z-800 w-15 flex flex-row justify-between sticky bottom-10 sm:bottom-2 px-2'>
+      <footer className='mb-15 cursor-pointer z-800 w-15 flex flex-row justify-between sticky bottom-11 sm:bottom-2 px-2'>
       <Link href='#hero'>
        <div className='flex justify-start'>
          <Image src='/top.svg' alt='photo profil avatar' className='rounded-full h-18 w-18 filter grayscale hover:grayscale-0 cursor-pointer' width={35} height={35}/>

@@ -31,7 +31,7 @@ export default function ExperienceCard({src, title,name,technos,summary,doe,dos}
               {technos.map((tech,index)=>{
                 return <Image 
                 key= {index}
-                className='rounded-full h-10 w-10'
+                className='rounded h-10 w-10'
                 src={tech.img}
                 alt={tech.name}
                 width={10}
