@@ -15,7 +15,7 @@ export default function Hero({}: Props) {
         delaySpeed: 2000,
     })
   return (
-    <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
+    <div className='h-screen flex flex-col  items-center justify-center text-center overflow-hidden'>
         <BackgroundCircle />
         <Image className='relative object-cover mx-auto rounded-full' src={reactLogoGold} alt="my avatar" width={150} height={150} priority={true}/>
         <div className='z-20'>

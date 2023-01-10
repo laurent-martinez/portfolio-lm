@@ -8,7 +8,7 @@ export default function About({}: Props) {
   const {t} = useTranslation('en',{useSuspense: false});
   return (
     <div className='flex flex-col relative text-center md:text-left md:flex-row h-screen max-w-7xl mx-auto items-center justify-center sm:justify-evenly p-10px '>
-        <h3 className='absolute top-14 sm:top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>{t('About.title')}</h3>
+        <h3 className='absolute top-14 sm:top-10 uppercase tracking-[20px] text-gray-500 text-2xl'>{t('About.title')}</h3>
         <Image
         src={AboutPic}
         className='rounded-full mt-[4em] md:mb-0 md:mt-0 flex-shrink-0 object-cover w-56 h-56 md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'

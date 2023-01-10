@@ -16,9 +16,9 @@ export default function ExperienceCard({src, title,name,technos,summary,doe,dos}
 
 
   return (
-    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[350px] md:w-[600px] xl:w-[700px] snap-center py-4 px-0 sm:p-10 bg-[#292929] opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-200 overflow-hidden mt-10'>
+    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[350px] md:w-[600px] xl:w-[700px] snap-center py-4 px-0 sm:p-10 dark:bg-[#292929] bg-[#292929]/10 opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-200 overflow-hidden mt-10'>
         <Image
-        className='w-32 h-32 rounded-full object-cover object-center xl:w-[200px] xl:h-[200px] '
+        className='w-32 h-32 rounded-full object-cover object-center xl:w-[100px] xl:h-[100px] '
         src={src}
         alt='logo openclassroom'
         width={32}
@@ -39,7 +39,7 @@ export default function ExperienceCard({src, title,name,technos,summary,doe,dos}
                 />
               })}
             </div>
-            <p className='py-5 text-gray-300 uppercase'>From {dos} to {doe}</p>
+            <p className='py-5 text-gray-700 dark:text-gray-300 uppercase'>From {dos} to {doe}</p>
             <ul className=' space-y-1 sm:ml-5 text-lg divide-y divide-[#F7AB0A] divide-opacity-25'>
               {summary.map((sum,index)=>{
                 return <li key={index}><span className='rounded-full bg-[#F7AB0A] w-10 h-10'></span>{sum}</li>

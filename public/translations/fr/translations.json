@@ -7,12 +7,12 @@
         "animateText": {
             "first": "Bonjour, je suis Laurent",
             "second": "Développeur",
-            "third": "Web designer",
-            "fourth": "J'aime apprendre"
+            "third": "Front-End",
+            "fourth": "Junior"
         },
         "menu":{
             "about": "A propos",
-            "experiences": "expériences",
+            "experiences": "Formations",
             "skills": "compétences",
             "projects": "projets"
         }

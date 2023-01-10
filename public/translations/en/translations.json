@@ -6,13 +6,13 @@
         "title": "front-end developper",
         "animateText": {
             "first": "Hi, I'm Laurent",
-            "second": "Developper",
-            "third": "Web designer",
-            "fourth": "Great learner"
+            "second": "Junior",
+            "third": "Front-End",
+            "fourth": "Developper"
         },
         "menu":{
             "about": "About",
-            "experiences": "experiences",
+            "experiences": "Education",
             "skills": "skills",
             "projects": "projects"
         }
