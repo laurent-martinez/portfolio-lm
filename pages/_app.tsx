@@ -11,8 +11,8 @@ i18next.use(initReactI18next)
   backend: {
       loadPath: '/translations/{{lng}}/translations.json',
     },
-    lng: 'en',
-    fallbackLng: 'en',
+    lng: 'fr',
+    fallbackLng: 'fr',
 })
 
 export default function App({ Component, pageProps }: AppProps) {

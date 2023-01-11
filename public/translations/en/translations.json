@@ -5,21 +5,38 @@
     "hero": {
         "title": "front-end developper",
         "animateText": {
-            "first": "Hi, I'm Laurent",
-            "second": "Junior",
-            "third": "Front-End",
-            "fourth": "Developper"
+            "first": "Laurent Martinez",
+            "second": "Front-End",
+            "third": "Developper",
+            "fourth": "Welcome everyone"
         },
         "menu":{
             "about": "About",
-            "experiences": "Education",
+            "experiences": "Timeline",
             "skills": "skills",
             "projects": "projects"
         }
+    },
+    "education": {
+        "title": "Timeline"
+    },
+    "projects": {
+        "title": "Projects"
     },
     "About": {
         "title": "About",
         "subTitle": "Here is a little background",
         "text": "Hello and welcome to my corner of the internet! My name is Laurent Martinez and I am a front-end developer with a love for creating engaging and user-friendly websites. I have a strong foundation in HTML, CSS, and JavaScript, and I am always eager to learn and expand my skill set. As a front-end developer, I enjoy the process of taking a design and bringing it to life on the web, ensuring that the final product is visually appealing, responsive, and easy to use. When I'm not coding, you can find me tinkering with new technologies or designing my own projects."
+    },
+    "contact": {
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message",
+        "send": "Send"
+    },
+    "skills": {
+        "title": "Skills",
+        "subtitle": "Hover over a skill for current proficiency"
     }
 }

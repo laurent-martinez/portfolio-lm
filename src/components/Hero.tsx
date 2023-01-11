@@ -8,7 +8,7 @@ import {useTranslation} from "react-i18next";
 type Props = {}
 
 export default function Hero({}: Props) {
-    const {t} = useTranslation('en',{useSuspense: false});
+    const {t} = useTranslation('fr',{useSuspense: false});
     const [text,count]= useTypewriter({
         words: [t("hero.animateText.first"),t("hero.animateText.second"),t("hero.animateText.third"),t("hero.animateText.fourth")],
         loop: true,
@@ -25,10 +25,10 @@ export default function Hero({}: Props) {
             <Cursor cursorColor='#F7AB0A'/>
         </h1>
         <div className='pt-5 px-10 md:px-0 flex flex-col md:flex-row justify-evenly'>
-            <Link href="#about"><div className='heroButton font-roboto'>{t('hero.menu.about')}</div></Link>
             <Link href="#experience"><div className='heroButton font-roboto'>{t('hero.menu.experiences')}</div></Link>
-            <Link href="#skills"><div className='heroButton font-roboto'>{t('hero.menu.skills')}</div></Link>
             <Link href="#projects"><div className='heroButton font-roboto'>{t('hero.menu.projects')}</div></Link>
+            <Link href="#skills"><div className='heroButton font-roboto'>{t('hero.menu.skills')}</div></Link>
+            <Link href="#about"><div className='heroButton font-roboto'>{t('hero.menu.about')}</div></Link>
         </div>
         </div>
     </div>

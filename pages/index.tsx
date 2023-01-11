@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import {useTheme} from 'next-themes';
-import React, { useState } from 'react'
+import React from 'react'
 import About from '../src/components/About'
 import Experience from '../src/components/Experience'
 import Header from "../src/components/Header"
@@ -23,7 +23,7 @@ type Props = {}
 export default function Home({}: Props) {
   const {theme, setTheme} = useTheme()
   return (
-    <div className={theme === 'light' ? 'bg-[#FFFFFF] text-black h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0  scrollbar-none md:scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80' : 'bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 dark scrollbar-thin md:scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'}>
+    <div className={theme === 'light' ? 'bg-[#f1f3f1] text-black h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0  scrollbar-none md:scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80' : 'bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 dark scrollbar-thin md:scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'}>
       <Head>
         <title>Laurent Martinez</title>
         <meta name="description" content="Laurent Martinez, Développeur front-end"/>

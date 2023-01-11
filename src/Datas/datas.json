@@ -1,74 +1,92 @@
 [
     {
     "img": "/portfolio-desktop.png",
+    "imgTablet": "/portfolio-tablet.png",
+    "imgMobile": "/portfolio-mobile.png",
     "title": "Portfolio",
     "src": "https://www.laurentmartinez.fr",
     "repo":"https://github.com/laurent-martinez",
-    "text": "My portfolio",
+    "text": "Mon portfolio",
     "learnPoints": ["Mise en place d'une application Next","Utilisation de Tailwind"]
 },
 {
     "img": "/HRnet-desktop.png",
+    "imgTablet": "/HRnet-tablet.png",
+    "imgMobile": "/HRnet-mobile.png",
     "title": "HRnet",
     "src": "https://hrnet-mu.vercel.app/",
     "repo": "https://github.com/laurent-martinez/front-end",
-    "text": "App for employee registration",
+    "text": "Application administrative pour une entreprise",
     "learnPoints": ["Refondre une application pour réduire la dette technique","Programmer en JavaScript avec la programmation fonctionnelle","Déployer une application front-end","Analyser la performance d'une application web"]
 },
 {
     "img": "/LesPetitsPlats-desktop.png",
+    "imgTablet": "/LesPetitsPlats-tablet.png",
+    "imgMobile": "/LesPetitsPlats-mobile.png",
     "title": "Les Petits Plats",
     "src": "https://hrnet-mu.vercel.app/",
     "repo": "https://github.com/laurent-martinez/Projet_Algorithme_de_recherche",
-    "text": "Algorithm for food recipes",
+    "text": "Algorithme de recherche de recettes",
     "learnPoints": ["Développer un algorithme pour résoudre un problème","Analyser un problème informatique"]
 },
 {
     "img": "/Booki-desktop.png",
+    "imgTablet": "/Booki-tablet.png",
+    "imgMobile": "/Booki-mobile.png",
     "title": "Booki",
     "src": "https://laurent-martinez.github.io/booki/",
     "repo": "https://github.com/laurent-martinez/booki",
-    "text": "App like AirBnb",
+    "text": "Application similaire à AirBnb",
     "learnPoints": ["Implémenter une interface responsive","Intégrer du contenu conformément à une maquette"]
 },
 {
     "img": "/OhMyFood-desktop.png",
+    "imgTablet": "/OhMyFood-tablet.png",
+    "imgMobile": "/OhMyFood-mobile.png",
     "title": "OhMyFood",
     "src": "https://laurent-martinez.github.io/laurentMartinez_3_03112021/",
     "repo": "https://github.com/laurent-martinez/laurentMartinez_3_03112021",
-    "text": "App like Uber-eats",
+    "text": "Application similaire à Uber-eats",
     "learnPoints": ["Utiliser un système de gestion de versions","Mettre en place son environnement Front-End","Assurer la cohérence graphique d'un site web","Mettre en place une structure de navigation pour un site web","Mettre en œuvre des effets CSS graphiques avancés"]
 },
 {
     "img": "/GameOn-desktop.png",
+    "imgTablet": "/GameOn-tablet.png",
+    "imgMobile": "/GameOn-mobile.png",
     "title": "GameOn",
     "src": "https://laurent-martinez.github.io/GameOn-website-FR/",
     "repo": "https://github.com/laurent-martinez/GameOn-website-FR",
-    "text": "Landing page for Gaming website",
+    "text": "Landing page pour un site de Gaming",
     "learnPoints": ["Utiliser un système de gestion de versions","Mettre en place son environnement Front-End","Assurer la cohérence graphique d'un site web","Mettre en place une structure de navigation pour un site web","Mettre en œuvre des effets CSS graphiques avancés"]
 },
 {
     "img": "/FishEye-desktop.png",
+    "imgTablet": "/FishEye-tablet.png",
+    "imgMobile": "/FishEye-mobile.png",
     "title": "FishEye",
     "src": "https://github.com/laurent-martinez/Front-End-Fisheye",
     "repo": "https://github.com/laurent-martinez/Front-End-Fisheye",
-    "text": "Website focus on Accessibility",
+    "text": "site accès sur l'accessibilité",
     "learnPoints": ["Gérer les évènements d'un site avec JavaScript","Assurer l'accessibilité d'un site web","Ecrire du code JavaScript maintenable","Développer une application web modulaire avec des design patterns"]
 },
 {
     "img": "/ArgentBank-desktop.png",
+    "imgTablet": "/ArgentBank-tablet.png",
+    "imgMobile": "/ArgentBank-mobile.png",
     "title": "ArgentBank",
     "src": "https://github.com/laurent-martinez/P13_argentBank",
     "repo": "https://github.com/laurent-martinez/P13_argentBank",
-    "text": "Bank App",
+    "text": "Application bancaire",
     "learnPoints": ["S'authentifier à une API","Modéliser une API","Intéragir avec une API","Implémenter un gestionnaire d'état dans une application React"]
 },
 {
     "img": "/SportSee-desktop.png",
-    "title": "ArgentBank",
+    "imgTablet": "/no-show-tablet.png",
+    "imgMobile": "/no-show.png",
+    "title": "SportSee",
     "src": "https://github.com/laurent-martinez/P12_SportSee",
     "repo": "https://github.com/laurent-martinez/P12_SportSee",
-    "text": "App of sport's stat",
+    "text": "Application de statistiques sportives",
     "learnPoints": ["Produire de la documentation technique pour une application","Interagir avec un service Web","Développer des éléments graphiques avancés à l'aide de bibliothèques JavaScript","Assurer la qualité des données d'une application"]
 }
 ]

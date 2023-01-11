@@ -8,7 +8,7 @@ type Props = {}
 
 
 function Header({}: Props) {
-    const {t, i18n} = useTranslation('en',{useSuspense: false});
+    const {t, i18n} = useTranslation('fr',{useSuspense: false});
     const handleLangChange = (e : any) => {
         i18n.changeLanguage(e.target.value)
     }
@@ -71,10 +71,10 @@ function Header({}: Props) {
             />
         
        
-            <p className="uppercase hidden md:inline-flex text-sm text-gray-400">{t('header.contact')}</p>
-            <select className="px-3 py-1 mx-5 bg-gray-200 text-[rgb(36,36,36)] " onChange={handleLangChange}>
-                <option value="en">EN</option>
+            <p className="uppercase hidden md:inline-flex text-sm text-gray-500 dark:text-gray-400">{t('header.contact')}</p>
+            <select className="px-3 py-1 mx-5 bg-gray-200 focus:[#F7AB0A] text-[rgb(36,36,36)] " onChange={handleLangChange}>
                 <option value="fr">FR</option>
+                <option value="en">EN</option>
             </select>
         </motion.div>
     </header>

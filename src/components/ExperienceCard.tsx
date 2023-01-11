@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React, { useEffect } from 'react'
 
 type Props = {
@@ -9,28 +10,31 @@ type Props = {
   summary: string[],
   doe: string,
   dos: string,
+  link: string,
 
 }
 
-export default function ExperienceCard({src, title,name,technos,summary,doe,dos}: Props) {
+export default function ExperienceCard({src, title,name,technos,summary,doe,dos,link}: Props) {
 
 
   return (
     <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[350px] md:w-[600px] xl:w-[700px] snap-center py-4 px-0 sm:p-10 dark:bg-[#292929] bg-[#292929]/10 opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-200 overflow-hidden mt-10'>
+        <Link href={link} target='_blank'>
         <Image
-        className='w-32 h-32 rounded-full object-cover object-center xl:w-[100px] xl:h-[100px] '
+        className='w-32 h-32 rounded-full object-cover object-center xl:w-[100px] xl:h-[100px] hover:animate-pulse '
         src={src}
         alt='logo openclassroom'
         width={32}
         height={32}
         />
+        </Link>
         <div className='sm:px-2 md:px-10 flex flex-col items-center sm:items-start'>
             <h4 className='text-2xl sm:text-4xl font-light'>{title}</h4>
             <p className='font-bold text-xl sm:text-2xl mt-1'>{name}</p>
             <div className='flex space-x-2 my-2'>
               {technos.map((tech,index)=>{
-                return <Image 
-                key= {index}
+                return <Image
+                key={index}
                 className='rounded h-10 w-10'
                 src={tech.img}
                 alt={tech.name}

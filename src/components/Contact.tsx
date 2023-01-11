@@ -1,13 +1,17 @@
 import React,{ useRef, useState} from 'react'
 import emailjs from '@emailjs/browser';
 import Modal from './Modal';
+import {useTranslation} from "react-i18next";
 
 
 type Props = {}
 
 export default function Contact({}: Props) {
+  const {t} = useTranslation('fr',{useSuspense: false});
+
   const [modalOn,setModalOn] = useState(false);
   const form = useRef<HTMLFormElement>(null);
+
   const sendEmail = (e:any) => {
     e.preventDefault();
     const currentForm = form.current;
@@ -24,24 +28,24 @@ export default function Contact({}: Props) {
   };
   return (
     <div className='flex flex-col relative text-center md:text-left md:flex-row max-x-7xl    h-screen  mx-auto items-center justify-evenly px-10 '>
-    <h3 className='absolute top-14 sm:top-10 uppercase tracking-[20px] text-gray-500 text-2xl'>Contact</h3>
+    <h3 className='absolute top-14 sm:top-10 uppercase tracking-[10px] sm:tracking-[15px] md:tracking-[20px] text-gray-500 text-2xl'>Contact</h3>
       {modalOn && <Modal setModalOn={setModalOn}/>} 
     <form ref={form} onSubmit={sendEmail}  className='flex flex-col space-y-2 w-fit mx-0 sm:mx-auto'>
       <div className='flex flex-col md:flex-row md:space-x-2 space-x-0'>
         <div className='flex flex-col'>
-      <label htmlFor='user_name' className='font-aqua font-bold'>Name</label>
+      <label htmlFor='user_name' className='font-aqua font-bold'>{t('contact.name')}</label>
       <input className='contact-input' type="text" name="user_name" />
         </div>
       <div className='flex flex-col'>
-      <label htmlFor='user_email' className='font-aqua font-bold'>Email</label>
+      <label htmlFor='user_email' className='font-aqua font-bold'>{t('contact.email')}</label>
       <input className='contact-input' type="email" name="user_email" />
       </div>
       </div>
-      <label htmlFor='subject' className='font-aqua font-bold' >Subject</label>
+      <label htmlFor='subject' className='font-aqua font-bold' >{t('contact.subject')}</label>
       <input className='contact-input' type="text" name="subject" />
-      <label htmlFor='message' className='font-aqua font-bold' >Message</label>
+      <label htmlFor='message' className='font-aqua font-bold' >{t('contact.message')}</label>
       <textarea className='contact-input' name="message" />
-      <button type="submit" value="Send" className='bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg font-roboto'>Send</button>
+      <button type="submit" value="Send" className='bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg font-roboto'>{t('contact.send')}</button>
     </form>
     </div>
   )
