@@ -54,7 +54,7 @@ export default function Home({}: Props) {
       <footer className='mb-15 cursor-pointer z-800 w-15 flex flex-row justify-between items-center bottom-10 sticky sm:bottom-5 px-2'>
       <Link href='#hero'>
        <div className='flex justify-start'>
-         <Image src='/top.svg' alt='photo profil avatar' className='rounded-full h-18 w-18 filter hover:grayscale dark:grayscale dark:hover:grayscale-0 cursor-pointer' width={35} height={35}/>
+         <Image src='/top.svg' alt='photo profil avatar' className='rounded-full h-19 w-19 filter hover:grayscale dark:grayscale dark:hover:grayscale-0 cursor-pointer' width={35} height={35}/>
        </div>
       </Link>
       <button  onClick={()=> setTheme(theme === 'light' ? 'dark' : 'light') }className=' bg-[#F7AB0A] dark:bg-gray-400 hover:bg-gray-400 dark:hover:bg-[#F7AB0A] text-white dark:text-white font-bold py-2 px-4 rounded z-500 flex  justify-end items-end'  >{theme === 'light' ? <Image src="/moon.svg" alt="change color mode" width={32} height={32}
