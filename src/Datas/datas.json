@@ -7,7 +7,7 @@
     "src": "https://www.laurentmartinez.fr",
     "repo":"https://github.com/laurent-martinez",
     "text": "Mon portfolio",
-    "learnPoints": ["Mise en place d'une application Next","Utilisation de Tailwind"]
+    "learnPoints": ["Next(React)__Tailwind__TypeScript","i18next, framer-motion, emailjs"]
 },
 {
     "img": "/HRnet-desktop.png",
@@ -20,14 +20,14 @@
     "learnPoints": ["Refondre une application pour réduire la dette technique","Programmer en JavaScript avec la programmation fonctionnelle","Déployer une application front-end","Analyser la performance d'une application web"]
 },
 {
-    "img": "/LesPetitsPlats-desktop.png",
-    "imgTablet": "/LesPetitsPlats-tablet.png",
-    "imgMobile": "/LesPetitsPlats-mobile.png",
-    "title": "Les Petits Plats",
-    "src": "https://hrnet-mu.vercel.app/",
-    "repo": "https://github.com/laurent-martinez/Projet_Algorithme_de_recherche",
-    "text": "Algorithme de recherche de recettes",
-    "learnPoints": ["Développer un algorithme pour résoudre un problème","Analyser un problème informatique"]
+    "img": "/OhMyFood-desktop.png",
+    "imgTablet": "/OhMyFood-tablet.png",
+    "imgMobile": "/OhMyFood-mobile.png",
+    "title": "OhMyFood",
+    "src": "https://laurent-martinez.github.io/laurentMartinez_3_03112021/",
+    "repo": "https://github.com/laurent-martinez/laurentMartinez_3_03112021",
+    "text": "Application similaire à Uber-eats",
+    "learnPoints": ["Utiliser un système de gestion de versions","Mettre en place son environnement Front-End","Assurer la cohérence graphique d'un site web","Mettre en place une structure de navigation pour un site web","Mettre en œuvre des effets CSS graphiques avancés"]
 },
 {
     "img": "/Booki-desktop.png",
@@ -40,14 +40,14 @@
     "learnPoints": ["Implémenter une interface responsive","Intégrer du contenu conformément à une maquette"]
 },
 {
-    "img": "/OhMyFood-desktop.png",
-    "imgTablet": "/OhMyFood-tablet.png",
-    "imgMobile": "/OhMyFood-mobile.png",
-    "title": "OhMyFood",
-    "src": "https://laurent-martinez.github.io/laurentMartinez_3_03112021/",
-    "repo": "https://github.com/laurent-martinez/laurentMartinez_3_03112021",
-    "text": "Application similaire à Uber-eats",
-    "learnPoints": ["Utiliser un système de gestion de versions","Mettre en place son environnement Front-End","Assurer la cohérence graphique d'un site web","Mettre en place une structure de navigation pour un site web","Mettre en œuvre des effets CSS graphiques avancés"]
+    "img": "/LesPetitsPlats-desktop.png",
+    "imgTablet": "/LesPetitsPlats-tablet.png",
+    "imgMobile": "/LesPetitsPlats-mobile.png",
+    "title": "Les Petits Plats",
+    "src": "https://hrnet-mu.vercel.app/",
+    "repo": "https://github.com/laurent-martinez/Projet_Algorithme_de_recherche",
+    "text": "Algorithme de recherche de recettes",
+    "learnPoints": ["Développer un algorithme pour résoudre un problème","Analyser un problème informatique"]
 },
 {
     "img": "/GameOn-desktop.png",
@@ -57,7 +57,7 @@
     "src": "https://laurent-martinez.github.io/GameOn-website-FR/",
     "repo": "https://github.com/laurent-martinez/GameOn-website-FR",
     "text": "Landing page pour un site de Gaming",
-    "learnPoints": ["Utiliser un système de gestion de versions","Mettre en place son environnement Front-End","Assurer la cohérence graphique d'un site web","Mettre en place une structure de navigation pour un site web","Mettre en œuvre des effets CSS graphiques avancés"]
+    "learnPoints": ["Utiliser un","Mettre Front-End","site web","Mettre en","Mettre en œuvre"]
 },
 {
     "img": "/FishEye-desktop.png",

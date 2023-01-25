@@ -1,0 +1,72 @@
+[
+    {
+        "img": "/react.svg",
+        "title": "React",
+        "level": "Avancé"
+    },
+    {
+        "img": "/redux.svg",
+        "title": "Redux",
+        "level": "Avancé"
+    },
+    {
+        "img": "/next1.svg",
+        "title": "Next",
+        "level": "Moyen"
+    },
+    {
+        "img": "/logos_javascript.svg",
+        "title": "Js",
+        "level": "avancé"
+    },
+    {
+        "img": "/ts.svg",
+        "title": "Ts",
+        "level": "Débutant"
+    },
+    {
+        "img": "/html.svg",
+        "title": "HTML",
+        "level": "avancé"
+    },
+    {
+        "img": "/css.svg",
+        "title": "CSS",
+        "level": "avancé"
+    },
+    {
+        "img": "/sass.svg",
+        "title": "Sass",
+        "level": "avancé"
+    },
+    {
+        "img": "/npm.svg",
+        "title": "NPM",
+        "level": "Débutant"
+    },
+    {
+        "img": "/docker.svg",
+        "title": "Docker",
+        "level": "Débutant"
+    },
+    {
+        "img": "/tailwind.svg",
+        "title": "Tailwind",
+        "level": "Moyen"
+    },
+    {
+        "img": "/figma.svg",
+        "title": "Figma",
+        "level": "Moyen"
+    },
+    {
+        "img": "/git.svg",
+        "title": "Git",
+        "level": "Moyen"
+    },
+    {
+        "img": "/jest.svg",
+        "title": "Jest",
+        "level": "Débutant"
+    }
+]

@@ -23,7 +23,7 @@ type Props = {}
 export default function Home({}: Props) {
   const {theme, setTheme} = useTheme()
   return (
-    <div className={theme === 'light' ? 'bg-[#f1f3f1] text-black h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0  scrollbar-none md:scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80' : 'bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 dark scrollbar-thin md:scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'}>
+    <div className={theme === 'light' ? 'bg-[#fdf9d3] text-black h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0  scrollbar-none md:scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80' : 'bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 dark scrollbar-thin md:scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'}>
       <Head>
         <title>Laurent Martinez</title>
         <meta name="description" content="Laurent Martinez, Développeur front-end"/>
@@ -51,7 +51,7 @@ export default function Home({}: Props) {
       <section id='contact' className='snap-start'>
         <Contact />
       </section>
-      <footer className='mb-15 cursor-pointer z-800 w-15 flex flex-row justify-between items-center bottom-5 sm:sticky sm:bottom-2 px-2'>
+      <footer className='mb-15 cursor-pointer z-800 w-15 flex flex-row justify-between items-center bottom-5 sticky sm:bottom-2 px-2'>
       <Link href='#hero'>
        <div className='flex justify-start'>
          <Image src='/top.svg' alt='photo profil avatar' className='rounded-full h-18 w-18 filter hover:grayscale dark:grayscale dark:hover:grayscale-0 cursor-pointer' width={35} height={35}/>
