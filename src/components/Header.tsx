@@ -18,7 +18,7 @@ function Header({}: Props) {
         i18n.changeLanguage(e.target.value)
     }
   return (
-    <header className="sticky top-0 flex sm:p-5 items-start justify-between max-w-7x1 mx-auto z-20 xl:items-center ">
+    <header className="sticky top-0 flex sm:p-5  justify-between max-w-7x1 mx-auto z-20 xl:items-center ">
             <motion.div
             initial={{
                 x: -500,
@@ -70,7 +70,7 @@ function Header({}: Props) {
             transition={{
                 duration: .800,
             }}
-            className="flex flex-row items-center text-gray-300 cursor-pointer hover:text-[#f7AB0A]"
+            className="flex flex-row items-center text-gray-300 mt-2 cursor-pointer hover:text-[#f7AB0A]"
             >
         
         <Link href="#contact">
