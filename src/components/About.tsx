@@ -20,6 +20,7 @@ export default function About({}: Props) {
         <h3 className='absolute top-14 sm:top-10 uppercase tracking-[10px] sm:tracking-[20px] text-gray-500 text-2xl'>{t('About.title')}</h3>
         <Image
         src={image}
+        onContextMenu={(e) => e.preventDefault()}
         onMouseEnter={!isMobile ? ()=>setImage(AboutPic) : undefined }
         onMouseLeave={!isMobile ? ()=>setImage(humanoid) : undefined }
         onTouchStart={isMobile ? ()=>setImage(AboutPic) : undefined }

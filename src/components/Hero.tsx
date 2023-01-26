@@ -30,8 +30,9 @@ export default  function Hero({}: Props) {
     <div className='h-screen flex flex-col  items-center justify-center text-center overflow-hidden'>
         <BackgroundCircle />
         <Image 
-        className='relative object-cover mx-auto bg-[#F7AB0A]/25 duration-500 dark:bg-transparent p-5 rounded-3xl'
+        className='relative object-cover mx-auto bg-[#F7AB0A]/25 duration-100 cursor-pointer dark:bg-transparent p-5 rounded-3xl'
          src={image}
+          onContextMenu={(e) => e.preventDefault()}
           onMouseEnter={!isMobile ? ()=> setImage('/pro6logo.png') : undefined}
            onMouseLeave={!isMobile ? ()=> setImage('/pro3logo.png') : undefined} 
            onTouchStart={isMobile ? ()=> setImage('/pro6logo.png') : undefined}
