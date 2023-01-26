@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Skill from './Skill';
+import loader from '../../public/loader.svg';
 import SkillData from '../Datas/skills.json';
 import {useTranslation} from "react-i18next";
+import Image from 'next/image';
 
 type Props = {}
 type Skills = {
@@ -11,6 +13,21 @@ type Skills = {
 }
 export default function Technos({}: Props) {
   const {t} = useTranslation('fr',{useSuspense: false});
+  const [jsonData, setJsonData] = useState<any>([]);
+
+  useEffect(() => {
+    setJsonData(SkillData);
+  }, []);
+
+  
+if(jsonData.length == 0) {
+  return (
+    <div className='h-screen w-screen flex justify-center items-center'>
+          <Image alt='loader spinner' src={loader} className='animate-spin fill-[#F7AB0a] duration-50'/>
+    </div>
+
+  )
+}
   return (
     <div 
     className='h-screen flex flex-col text-center md:text-left xl:flex-row max-w-[2000px] min-h-screen xl:px-10 relative justify-center  mx-auto items-center'>

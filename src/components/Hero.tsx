@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import reactLogoGold from '../../public/reactzordi.png';
 import pro3 from '../../public/pro3logo.png';
 import pro5 from '../../public/pro5logo.png';
@@ -19,10 +19,24 @@ export default  function Hero({}: Props) {
         loop: true,
         delaySpeed: 2000,
     })
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        setIsMobile(true);
+      }
+    }, []);
   return (
     <div className='h-screen flex flex-col  items-center justify-center text-center overflow-hidden'>
         <BackgroundCircle />
-        <Image className='relative object-cover mx-auto bg-[#F7AB0A]/25 duration-500 dark:bg-transparent p-5 rounded-3xl' src={image} onMouseEnter={()=> setImage('/pro6logo.png')} onMouseLeave={()=> setImage('/pro3logo.png')} alt="my avatar" width={300} height={300} priority={true}/>
+        <Image 
+        className='relative object-cover mx-auto bg-[#F7AB0A]/25 duration-500 dark:bg-transparent p-5 rounded-3xl'
+         src={image}
+          onMouseEnter={!isMobile ? ()=> setImage('/pro6logo.png') : undefined}
+           onMouseLeave={!isMobile ? ()=> setImage('/pro3logo.png') : undefined} 
+           onTouchStart={isMobile ? ()=> setImage('/pro6logo.png') : undefined}
+           onTouchEnd={isMobile ? ()=> setImage('/pro3logo.png') : undefined} 
+           alt="my avatar" width={300} height={300} priority={true}/>
         <div className='z-20'>
             <motion.div
                 initial={{

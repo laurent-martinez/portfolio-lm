@@ -3,7 +3,7 @@
 [
     {
         "logo": "/op.svg",
-        "title": "Front-end Developer (React)",
+        "title": "Développeur React",
         "name": "OpencClassroom",
         "link": "https://www.francecompetences.fr/recherche/rncp/35976/",
         "dos": "2021-11-23",
@@ -29,7 +29,7 @@
             "dos": "2019-09-01",
             "doe": "2019-12-19",
             "technos": [{"name": "Html","img": "/html.svg"}, {"name": "Css", "img": "/css.svg"},{"name": "Ruby", "img": "/ruby.svg"},{"name": "Ruby on rails", "img": "/rubyOnRails.svg"}],
-            "summary": ["Découverte de la programmation","html","css","ruby","méthode agile","git","github"]
+            "summary": ["html","css","ruby","méthode agile","git","github"]
     },
     {
         "logo": "/moi2.png",

@@ -16,8 +16,8 @@
     "title": "HRnet",
     "src": "https://hrnet-mu.vercel.app/",
     "repo": "https://github.com/laurent-martinez/front-end",
-    "text": "Application administrative pour une entreprise",
-    "learnPoints": ["Refondre une application pour réduire la dette technique","Programmer en JavaScript avec la programmation fonctionnelle"]
+    "text": "Application administrative",
+    "learnPoints": ["Refondre une application","Programmer en JavaScript"]
 },
 {
     "img": "/OhMyFood-desktop.png",
@@ -26,8 +26,8 @@
     "title": "OhMyFood",
     "src": "https://laurent-martinez.github.io/laurentMartinez_3_03112021/",
     "repo": "https://github.com/laurent-martinez/laurentMartinez_3_03112021",
-    "text": "Application similaire à Uber-eats",
-    "learnPoints": ["Utiliser un système de gestion de versions","Mettre en place son environnement Front-End"]
+    "text": "Application Uber-eats",
+    "learnPoints": ["système de gestion de versions","environnement Front-End"]
 },
 {
     "img": "/Booki-desktop.png",
@@ -36,8 +36,8 @@
     "title": "Booki",
     "src": "https://laurent-martinez.github.io/booki/",
     "repo": "https://github.com/laurent-martinez/booki",
-    "text": "Application similaire à AirBnb",
-    "learnPoints": ["Implémenter une interface responsive","Intégrer du contenu conformément à une maquette"]
+    "text": "Application AirBnb",
+    "learnPoints": ["interface responsive","Intégrer une maquette"]
 },
 {
     "img": "/LesPetitsPlats-desktop.png",
@@ -46,8 +46,8 @@
     "title": "Les Petits Plats",
     "src": "https://hrnet-mu.vercel.app/",
     "repo": "https://github.com/laurent-martinez/Projet_Algorithme_de_recherche",
-    "text": "Algorithme de recherche de recettes",
-    "learnPoints": ["Développer un algorithme pour résoudre un problème","Analyser un problème informatique"]
+    "text": "Algorithme de recherche",
+    "learnPoints": ["Développer un algorithme","Analyser un problème informatique"]
 },
 {
     "img": "/GameOn-desktop.png",
@@ -56,8 +56,8 @@
     "title": "GameOn",
     "src": "https://laurent-martinez.github.io/GameOn-website-FR/",
     "repo": "https://github.com/laurent-martinez/GameOn-website-FR",
-    "text": "Landing page pour un site de Gaming",
-    "learnPoints": ["Utiliser un","Mettre Front-End","site web","Mettre en","Mettre en œuvre"]
+    "text": "Landing page",
+    "learnPoints": ["Utiliser un","Mettre Front-End"]
 },
 {
     "img": "/FishEye-desktop.png",
@@ -67,7 +67,7 @@
     "src": "https://github.com/laurent-martinez/Front-End-Fisheye",
     "repo": "https://github.com/laurent-martinez/Front-End-Fisheye",
     "text": "site accès sur l'accessibilité",
-    "learnPoints": ["Gérer les évènements d'un site avec JavaScript","Assurer l'accessibilité d'un site web"]
+    "learnPoints": ["Gérer les évènements","Assurer l'accessibilité d'un site web"]
 },
 {
     "img": "/ArgentBank-desktop.png",
@@ -86,7 +86,7 @@
     "title": "SportSee",
     "src": "https://github.com/laurent-martinez/P12_SportSee",
     "repo": "https://github.com/laurent-martinez/P12_SportSee",
-    "text": "Application de statistiques sportives",
-    "learnPoints": ["Produire de la documentation technique pour une application","Interagir avec un service Web"]
+    "text": "statistiques sportives",
+    "learnPoints": ["documentation technique","Interagir avec un service Web"]
 }
 ]

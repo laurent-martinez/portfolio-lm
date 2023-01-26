@@ -1,14 +1,31 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import {motion} from 'framer-motion';
 import ExperienceCard from './ExperienceCard';
+import loader from '../../public/loader.svg';
 import datas from '../Datas/Schools.json';
 import {useTranslation} from "react-i18next";
+import Image from 'next/image';
 
 type Props = {}
 
+
 export default function Experience({}: Props) {
   const {t} = useTranslation('fr',{useSuspense: false});
+  const [jsonData, setJsonData] = useState<any>([]);
 
+  useEffect(() => {
+    setJsonData(datas);
+  }, []);
+
+  
+if(jsonData.length == 0) {
+  return (
+    <div className='h-screen w-screen flex justify-center items-center'>
+          <Image alt='loader spinner' src={loader} className='animate-spin fill-[#F7AB0a] duration-50'/>
+    </div>
+
+  )
+}
   
   return (
     <motion.div
