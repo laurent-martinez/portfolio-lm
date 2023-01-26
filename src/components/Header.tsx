@@ -33,7 +33,7 @@ function Header({}: Props) {
             transition={{
                 duration: .800,
             }}
-            className="flex flex-row items-center py-2"
+            className="flex flex-row items-center mt-1"
             >
     {/* <SocialIcon url="https://www.instagram.com/martilaurier"
     className="hover:text-[#f7AB0A] hover:scale-125"
@@ -70,7 +70,7 @@ function Header({}: Props) {
             transition={{
                 duration: .800,
             }}
-            className="flex flex-row items-center text-gray-300 mt-2 cursor-pointer hover:text-[#f7AB0A]"
+            className="flex flex-row items-center text-gray-300 mt-1 cursor-pointer hover:text-[#f7AB0A]"
             >
         
         <Link href="#contact">

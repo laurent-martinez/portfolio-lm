@@ -38,7 +38,7 @@ export default  function Hero({}: Props) {
                 transition={{
                             duration: .800,
                         }}>
-        <h2 className='uppercase text-sm text-gray-500 pb-2 tracking-[15px] font-roboto leading-8'>{t('hero.title')}</h2>
+        <h2 className='px-10 uppercase text-sm text-gray-500 pb-2 tracking-[15px] font-roboto leading-8'>{t('hero.title')}</h2>
             </motion.div>
         <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold px-10'>
             <span className='dark:text-white text-gray-700 mr-3 font-aqua'>{text}</span>
