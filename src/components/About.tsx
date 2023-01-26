@@ -21,6 +21,7 @@ export default function About({}: Props) {
         <Image
         src={image}
         onContextMenu={(e) => e.preventDefault()}
+        onSelect={(e) => e.preventDefault()}
         onMouseEnter={!isMobile ? ()=>setImage(AboutPic) : undefined }
         onMouseLeave={!isMobile ? ()=>setImage(humanoid) : undefined }
         onTouchStart={isMobile ? ()=>setImage(AboutPic) : undefined }
