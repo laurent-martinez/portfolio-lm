@@ -15,7 +15,14 @@ type Props = {
 }
 
 export default function ExperienceCard(data: Props) {
+  const RandomColor = () => {
+    const rancol = "#"+Math.floor(Math.random() * 16777215).toString(16)
+    return rancol
+  }
+const rancol = data.name.split('')
 
+
+  
 
   return (
     <article className='flex flex-col rounded-lg justify-center items-center space-y-7 flex-shrink-0 w-[350px] md:w-[600px] xl:w-[700px] snap-center py-4 px-0 sm:p-10 dark:bg-[#292929] bg-white lg:opacity-40 lg:hover:opacity-100 cursor-pointer transition-opacity duration-200 overflow-hidden mt-10'>
@@ -29,8 +36,8 @@ export default function ExperienceCard(data: Props) {
         />
         </Link>
         <div className='sm:px-2 md:px-10 flex flex-col items-center'>
-            <h4 className='text-2xl md:text-4xl font-light mx-auto'>{data.title}</h4>
-            <p className='font-bold text-xl sm:text-2xl mt-1 mx-auto'>{data.name}</p>
+            <h4 className='text-2xl md:text-4xl font-light mx-auto' >{data.title}</h4>
+            <p className='font-bold text-xl sm:text-2xl mt-1 mx-auto drop-shadow-2xl'>{data.name}</p>
             <div className='grid grid-cols-4 sm:flex sm:flex-wrap gap-2  my-2 '>
               {data.technos.map((tech,index)=>{
                 return <Image
@@ -47,7 +54,7 @@ export default function ExperienceCard(data: Props) {
             <p className='py-5 text-gray-700 dark:text-gray-300 uppercase mx-auto'>From {data.dos} to {data.doe}</p>
             <ul className='space-y-1 text-lg divide-y divide-[#F7AB0A] divide-opacity-25 mx-auto'>
               {data.summary.map((sum,index)=>{
-                return <li key={index}><span className='rounded-full bg-[#F7AB0A] w-10 h-10'></span>{sum}</li>
+                return <li   key={index}><span className='rounded-full bg-[#F7AB0A] w-10 h-10'></span>{sum}</li>
               })}
             </ul>
         </div>

@@ -4,12 +4,12 @@
     {
         "logo": "/op.svg",
         "title": "Développeur React",
-        "name": "OpencClassroom",
+        "name": "OpenClassroom",
         "link": "https://www.francecompetences.fr/recherche/rncp/35976/",
         "dos": "2021-11-23",
         "doe": "2022-12-23",
         "technos": [{"name": "React","img": "/react.svg"}, {"name": "Redux", "img": "/redux.svg"},{"name": "Js", "img": "/logos_javascript.svg"},{"name": "Html", "img": "/html.svg"},{"name": "Css", "img": "/css.svg"},{"name": "Figma", "img": "/figma.svg"},{"name": "Jest", "img": "/jest.svg"}],
-        "summary": ["Framework front-end","React","Sass","Redux","Html","Css"]
+        "summary": ["React","Sass","Redux","Html","Css","Jest"]
     },
     {
         "logo": "/pando.svg",
@@ -18,8 +18,8 @@
         "link": "#",
         "dos": "2021-11-23",
         "doe": "2022-12-23",
-        "technos": [{"name": "React","img": "/react.svg"}, {"name": "Redux", "img": "/redux.svg"},{"name": "Js", "img": "/logos_javascript.svg"},{"name": "Html", "img": "/html.svg"},{"name": "Css", "img": "/css.svg"},{"name": "Figma", "img": "/figma.svg"},{"name": "Jest", "img": "/jest.svg"}],
-        "summary": ["Framework front-end","React","Sass","Redux","Html","Css"]
+        "technos": [{"name": "Wordpress", "img": "/Wordpress.svg"},{"name": "Js", "img": "/logos_javascript.svg"},{"name": "Html", "img": "/html.svg"},{"name": "Css", "img": "/css.svg"}],
+        "summary": ["Wordpress","Html","Css","Javascript"]
     },
     {
             "logo": "/thp1.png",
@@ -38,7 +38,7 @@
         "link":"https://github.com/laurent-martinez",
         "dos": "2019-08-1",
         "doe": "...",
-        "technos": [{"name": "Tailwind","img": "/tailwind.svg"}, {"name": "Docker", "img": "/docker.svg"},{"name": "Next", "img": "/next1.svg"},{"name": "TypeScript", "img": "/ts.svg"},{"name": "StoryBook", "img": "/Storybook.svg"}],
-        "summary": ["Framework front-end","React","Sass","Redux","Html","Css","TypeScript"]
+        "technos": [{"name": "Tailwind","img": "/tailwind.svg"}, {"name": "Docker", "img": "/docker.svg"},{"name": "Next", "img": "/next1.svg"},{"name": "TypeScript", "img": "/ts.svg"}],
+        "summary": ["Next","TypeScript","Tailwind","Sanity"]
     }
 ]

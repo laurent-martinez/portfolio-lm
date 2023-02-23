@@ -7,7 +7,27 @@
     "src": "https://www.laurentmartinez.fr",
     "repo":"https://github.com/laurent-martinez",
     "text": "Mon portfolio",
-    "learnPoints": ["Next(React)__Tailwind__TypeScript","i18next, framer-motion, emailjs"]
+    "learnPoints": ["Next","TypeScipt","i18next", "framer-motion", "emailjs"]
+},
+{
+    "img": "/movies-portfolio.png",
+    "imgTablet": "",
+    "imgMobile": "",
+    "title": "Adaptatrice Doublage",
+    "src": "https://movies-portfolio.vercel.app/",
+    "repo":"https://github.com/laurent-martinez/movies-portfolio/",
+    "text": "portfolio",
+    "learnPoints": ["Next","Tailwind","eslint config airbnb","framer-motion","Movies API"]
+},
+{
+    "img": "/Pando.png",
+    "imgTablet": "",
+    "imgMobile": "",
+    "title": "Pando",
+    "src": "https://www.pando-web.com/",
+    "repo":"https://github.com/laurent-martinez/pando",
+    "text": "E-commerce",
+    "learnPoints": ["Next","Sanity","Stripe"]
 },
 {
     "img": "/HRnet-desktop.png",
@@ -17,7 +37,7 @@
     "src": "https://hrnet-mu.vercel.app/",
     "repo": "https://github.com/laurent-martinez/front-end",
     "text": "Application administrative",
-    "learnPoints": ["Refondre une application","Programmer en JavaScript"]
+    "learnPoints": ["Vite","custom Modal(NPM)","Ants design"]
 },
 {
     "img": "/OhMyFood-desktop.png",
@@ -27,7 +47,7 @@
     "src": "https://laurent-martinez.github.io/laurentMartinez_3_03112021/",
     "repo": "https://github.com/laurent-martinez/laurentMartinez_3_03112021",
     "text": "Application Uber-eats",
-    "learnPoints": ["système de gestion de versions","environnement Front-End"]
+    "learnPoints": ["SVG loader","animations"]
 },
 {
     "img": "/Booki-desktop.png",
@@ -37,7 +57,7 @@
     "src": "https://laurent-martinez.github.io/booki/",
     "repo": "https://github.com/laurent-martinez/booki",
     "text": "Application AirBnb",
-    "learnPoints": ["interface responsive","Intégrer une maquette"]
+    "learnPoints": ["Responsive","Intégrer une maquette"]
 },
 {
     "img": "/LesPetitsPlats-desktop.png",
@@ -47,7 +67,7 @@
     "src": "https://hrnet-mu.vercel.app/",
     "repo": "https://github.com/laurent-martinez/Projet_Algorithme_de_recherche",
     "text": "Algorithme de recherche",
-    "learnPoints": ["Développer un algorithme","Analyser un problème informatique"]
+    "learnPoints": ["Développer un algorithme"]
 },
 {
     "img": "/GameOn-desktop.png",
@@ -57,36 +77,36 @@
     "src": "https://laurent-martinez.github.io/GameOn-website-FR/",
     "repo": "https://github.com/laurent-martinez/GameOn-website-FR",
     "text": "Landing page",
-    "learnPoints": ["Utiliser un","Mettre Front-End"]
+    "learnPoints": ["Custom form"]
 },
 {
     "img": "/FishEye-desktop.png",
     "imgTablet": "/FishEye-tablet.png",
     "imgMobile": "/FishEye-mobile.png",
     "title": "FishEye",
-    "src": "https://github.com/laurent-martinez/Front-End-Fisheye",
+    "src": "",
     "repo": "https://github.com/laurent-martinez/Front-End-Fisheye",
     "text": "site accès sur l'accessibilité",
-    "learnPoints": ["Gérer les évènements","Assurer l'accessibilité d'un site web"]
+    "learnPoints": ["Accessibility"]
 },
 {
     "img": "/ArgentBank-desktop.png",
     "imgTablet": "/ArgentBank-tablet.png",
     "imgMobile": "/ArgentBank-mobile.png",
     "title": "ArgentBank",
-    "src": "https://github.com/laurent-martinez/P13_argentBank",
+    "src": "",
     "repo": "https://github.com/laurent-martinez/P13_argentBank",
     "text": "Application bancaire",
-    "learnPoints": ["S'authentifier à une API","Modéliser une API"]
+    "learnPoints": ["Auth","Redux"]
 },
 {
     "img": "/SportSee-desktop.png",
     "imgTablet": "/no-show-tablet.png",
     "imgMobile": "/no-show.png",
     "title": "SportSee",
-    "src": "https://github.com/laurent-martinez/P12_SportSee",
+    "src": "",
     "repo": "https://github.com/laurent-martinez/P12_SportSee",
     "text": "statistiques sportives",
-    "learnPoints": ["documentation technique","Interagir avec un service Web"]
+    "learnPoints": ["Charts.js"]
 }
 ]

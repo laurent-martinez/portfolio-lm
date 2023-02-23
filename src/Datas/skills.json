@@ -12,7 +12,7 @@
     {
         "img": "/next1.svg",
         "title": "Next",
-        "level": "Moyen"
+        "level": "Moyen+"
     },
     {
         "img": "/logos_javascript.svg",
@@ -22,7 +22,7 @@
     {
         "img": "/ts.svg",
         "title": "Ts",
-        "level": "Débutant"
+        "level": "Moyen"
     },
     {
         "img": "/html.svg",
@@ -52,12 +52,12 @@
     {
         "img": "/tailwind.svg",
         "title": "Tailwind",
-        "level": "Moyen"
+        "level": "Avancé"
     },
     {
         "img": "/figma.svg",
         "title": "Figma",
-        "level": "Moyen"
+        "level": "Avancé"
     },
     {
         "img": "/git.svg",
