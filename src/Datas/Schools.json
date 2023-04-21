@@ -16,13 +16,13 @@
         "title": "Developper front-end",
         "name": "Micro-entreprise",
         "link": "#",
-        "dos": "2021-11-23",
-        "doe": "2022-12-23",
+        "dos": "2019-12-23",
+        "doe": "2021-11-23",
         "technos": [{"name": "Wordpress", "img": "/Wordpress.svg"},{"name": "Js", "img": "/logos_javascript.svg"},{"name": "Html", "img": "/html.svg"},{"name": "Css", "img": "/css.svg"}],
         "summary": ["Wordpress","Html","Css","Javascript"]
     },
     {
-            "logo": "/thp1.png",
+            "logo": "/THP.svg",
             "title": "Developpeur Web",
             "name": "THP",
             "link": "https://www.thehackingproject.org/parcours/developpeur-web-fullstack",
@@ -32,7 +32,7 @@
             "summary": ["html","css","ruby","méthode agile","git","github"]
     },
     {
-        "logo": "/moi2.png",
+        "logo": "/profile.svg",
         "title": "Developper front-end",
         "name": "ByMyself inc",
         "link":"https://github.com/laurent-martinez",

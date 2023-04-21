@@ -1,5 +1,15 @@
 [
     {
+        "img": "/deliverHub.png",
+        "imgTablet": "",
+        "imgMobile": "",
+        "title": "DeliverHub",
+        "src": "https://expo.dev/@laurentmartinezdev/deliverhub",
+        "repo":"https://github.com/laurent-martinez/deliverhub",
+        "text": "Application de livraison",
+        "learnPoints": ["React native", "Redux", "react-native-maps"]
+    },
+    {
     "img": "/portfolio-desktop.png",
     "imgTablet": "/portfolio-tablet.png",
     "imgMobile": "/portfolio-mobile.png",
@@ -7,7 +17,7 @@
     "src": "https://www.laurentmartinez.fr",
     "repo":"https://github.com/laurent-martinez",
     "text": "Mon portfolio",
-    "learnPoints": ["Next","TypeScipt","i18next", "framer-motion", "emailjs"]
+    "learnPoints": ["Next","TypeScript","i18next", "framer-motion", "emailjs"]
 },
 {
     "img": "/movies-portfolio.png",
@@ -64,7 +74,7 @@
     "imgTablet": "/LesPetitsPlats-tablet.png",
     "imgMobile": "/LesPetitsPlats-mobile.png",
     "title": "Les Petits Plats",
-    "src": "https://hrnet-mu.vercel.app/",
+    "src": "",
     "repo": "https://github.com/laurent-martinez/Projet_Algorithme_de_recherche",
     "text": "Algorithme de recherche",
     "learnPoints": ["Développer un algorithme"]
