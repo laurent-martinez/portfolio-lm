@@ -35,19 +35,22 @@ export default function Home({}: Props) {
         <Hero />
       </section>
       {/* About */}
+      <section id='about' className='snap-center'>
+        <About />
+      </section>
+      {/* Projects */}
+      <section id='projects' className='snap-start'>
+        <Projects />
+      </section>
+      {/* Skills */}
+      <section id='skills' className='snap-center'>
+        <Technos />
+      </section>
       {/* Experiences  */}
       <section id='experience' className='snap-center'>
         <Experience />
       </section>
-      <section id='projects' className='snap-start'>
-        <Projects />
-      </section>
-      <section id='skills' className='snap-center'>
-        <Technos />
-      </section>
-      <section id='about' className='snap-center'>
-        <About />
-      </section>
+      {/* Contact */}
       <section id='contact' className='snap-start'>
         <Contact />
       </section>

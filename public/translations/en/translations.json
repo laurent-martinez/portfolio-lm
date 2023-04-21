@@ -1,9 +1,9 @@
 {
     "header": {
-        "contact": "contact-me"
+        "contact": "Contact-me"
     },
     "hero": {
-        "title": "front-end developper",
+        "title": "Front-End developper",
         "animateText": {
             "first": "Laurent Martinez",
             "second": "Front-End",
@@ -13,8 +13,8 @@
         "menu":{
             "about": "About",
             "experiences": "Timeline",
-            "skills": "skills",
-            "projects": "projects"
+            "skills": "Skills",
+            "projects": "Projects"
         }
     },
     "education": {
@@ -26,7 +26,7 @@
     "About": {
         "title": "About",
         "subTitle": "Here is a little background",
-        "text": "Hello and welcome to my corner of the internet! My name is Laurent Martinez and I am a front-end developer with a love for creating engaging and user-friendly websites. I have a strong foundation in HTML, CSS, and JavaScript, and I am always eager to learn and expand my skill set. As a front-end developer, I enjoy the process of taking a design and bringing it to life on the web, ensuring that the final product is visually appealing, responsive, and easy to use. When I'm not coding, you can find me tinkering with new technologies or designing my own projects."
+        "text": "Hello and welcome to my corner of the internet! My name is Laurent Martinez and I am a front-end developer with a love for creating engaging and user-friendly websites. I have a strong foundation in HTML/CSS/JavaScript and React, and I am always eager to learn and expand my skill set. I enjoy the process of taking a design and bringing it to life on the web, ensuring that the final product is visually appealing, responsive, and easy to use. When I'm not coding, you can find creating artwork with Midjourney or working on my projects."
     },
     "contact": {
         "name": "Name",

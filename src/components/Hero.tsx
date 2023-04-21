@@ -74,10 +74,10 @@ export default  function Hero({}: Props) {
             transition={{
                 duration: .800,
             }}>
-            <Link href="#experience"><div className='heroButton font-roboto'>{t ? t('hero.menu.experiences'): 'loading...'}</div></Link>
+            <Link href="#about"><div className='heroButton font-roboto'>{t ? t('hero.menu.about'): 'loading...'}</div></Link>
             <Link href="#projects"><div className='heroButton font-roboto'>{t ? t('hero.menu.projects') : 'loading...'}</div></Link>
             <Link href="#skills"><div className='heroButton font-roboto'>{t ? t('hero.menu.skills'): 'loading...'}</div></Link>
-            <Link href="#about"><div className='heroButton font-roboto'>{t ? t('hero.menu.about'): 'loading...'}</div></Link>
+            <Link href="#experience"><div className='heroButton font-roboto'>{t ? t('hero.menu.experiences'): 'loading...'}</div></Link>
         </motion.div>
         </div>
     </div>

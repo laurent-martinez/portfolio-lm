@@ -1,6 +1,6 @@
 {
     "header": {
-        "contact": "contactez-moi"
+        "contact": "Contactez-moi"
     },
     "hero": {
         "title": "développeur front-end",
@@ -13,8 +13,8 @@
         "menu":{
             "about": "A propos",
             "experiences": "Chronologie",
-            "skills": "compétences",
-            "projects": "projets"
+            "skills": "Compétences",
+            "projects": "Projets"
         }
     },
     "education": {
@@ -26,7 +26,7 @@
     "About": {
         "title": "A propos",
         "subTitle": "Voici un peu de contexte",
-        "text": "Bonjour et bienvenue dans mon coin d'Internet ! Je m'appelle Laurent Martinez et je suis un développeur frontal qui aime créer des sites Web attrayants et conviviaux. J'ai de solides bases en HTML, CSS et JavaScript, et je suis toujours désireux d'apprendre et d'élargir mon éventail de compétences. En tant que développeur frontal, j'aime prendre un design et lui donner vie sur le Web, en veillant à ce que le produit final soit visuellement attrayant, réactif et facile à utiliser. Lorsque je ne suis pas en train de coder, vous pouvez me trouver en train de bricoler de nouvelles technologies ou de concevoir mes propres projets."
+        "text": "Bonjour et bienvenue dans mon coin d'Internet ! Je m'appelle Laurent Martinez et je suis un développeur Front-End qui aime créer des sites Web attrayants et conviviaux. J'ai de solides bases en HTML/CSS/JavaScript et en React, je suis toujours désireux d'apprendre et d'élargir l'évantail de mes compétences. En tant que développeur Front-End, j'aime prendre un design et lui donner vie sur le Web, en veillant à ce que le produit final soit visuellement attrayant, réactif et facile à utiliser. Lorsque je ne suis pas en train de coder, vous pouvez me trouver en train de créer des visuels avec Midjourney ou de travailler sur mes projets."
     },
     "contact": {
         "name": "Nom",

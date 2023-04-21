@@ -45,7 +45,7 @@ export default function Contact({}: Props) {
       <input className='contact-input' type="text" name="subject" />
       <label htmlFor='message' className='font-aqua font-bold' >{t('contact.message')}</label>
       <textarea className='contact-input' name="message" />
-      <button type="submit" value="Send" className='bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg font-roboto'>{t('contact.send')}</button>
+      <button type="submit" value="Send" className='bg-[#F7AB0A] hover:bg-[#de9909] py-5 px-10 rounded-md text-black font-bold text-lg font-roboto'>{t('contact.send')}</button>
     </form>
     </div>
   )

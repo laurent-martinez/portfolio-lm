@@ -10,6 +10,26 @@
         "learnPoints": ["React native", "Redux", "react-native-maps"]
     },
     {
+        "img": "/Pando.png",
+        "imgTablet": "",
+        "imgMobile": "",
+        "title": "Pando",
+        "src": "https://www.pando-web.com/",
+        "repo":"https://github.com/laurent-martinez/pando",
+        "text": "E-commerce",
+        "learnPoints": ["Next","Sanity","Stripe"]
+    },
+    {
+        "img": "/OhMyFood-desktop.png",
+        "imgTablet": "/OhMyFood-tablet.png",
+        "imgMobile": "/OhMyFood-mobile.png",
+        "title": "OhMyFood",
+        "src": "https://laurent-martinez.github.io/laurentMartinez_3_03112021/",
+        "repo": "https://github.com/laurent-martinez/laurentMartinez_3_03112021",
+        "text": "Application Uber-eats",
+        "learnPoints": ["SVG loader","animations"]
+    },
+    {
     "img": "/portfolio-desktop.png",
     "imgTablet": "/portfolio-tablet.png",
     "imgMobile": "/portfolio-mobile.png",
@@ -20,26 +40,6 @@
     "learnPoints": ["Next","TypeScript","i18next", "framer-motion", "emailjs"]
 },
 {
-    "img": "/movies-portfolio.png",
-    "imgTablet": "",
-    "imgMobile": "",
-    "title": "Adaptatrice Doublage",
-    "src": "https://movies-portfolio.vercel.app/",
-    "repo":"https://github.com/laurent-martinez/movies-portfolio/",
-    "text": "portfolio",
-    "learnPoints": ["Next","Tailwind","eslint config airbnb","framer-motion","Movies API"]
-},
-{
-    "img": "/Pando.png",
-    "imgTablet": "",
-    "imgMobile": "",
-    "title": "Pando",
-    "src": "https://www.pando-web.com/",
-    "repo":"https://github.com/laurent-martinez/pando",
-    "text": "E-commerce",
-    "learnPoints": ["Next","Sanity","Stripe"]
-},
-{
     "img": "/HRnet-desktop.png",
     "imgTablet": "/HRnet-tablet.png",
     "imgMobile": "/HRnet-mobile.png",
@@ -48,16 +48,6 @@
     "repo": "https://github.com/laurent-martinez/front-end",
     "text": "Application administrative",
     "learnPoints": ["Vite","custom Modal(NPM)","Ants design"]
-},
-{
-    "img": "/OhMyFood-desktop.png",
-    "imgTablet": "/OhMyFood-tablet.png",
-    "imgMobile": "/OhMyFood-mobile.png",
-    "title": "OhMyFood",
-    "src": "https://laurent-martinez.github.io/laurentMartinez_3_03112021/",
-    "repo": "https://github.com/laurent-martinez/laurentMartinez_3_03112021",
-    "text": "Application Uber-eats",
-    "learnPoints": ["SVG loader","animations"]
 },
 {
     "img": "/Booki-desktop.png",
@@ -118,5 +108,15 @@
     "repo": "https://github.com/laurent-martinez/P12_SportSee",
     "text": "statistiques sportives",
     "learnPoints": ["Charts.js"]
+},
+{
+    "img": "/movies-portfolio.png",
+    "imgTablet": "",
+    "imgMobile": "",
+    "title": "Adaptatrice Doublage",
+    "src": "https://movies-portfolio.vercel.app/",
+    "repo":"https://github.com/laurent-martinez/movies-portfolio/",
+    "text": "portfolio",
+    "learnPoints": ["Next","Tailwind","eslint config airbnb","framer-motion","Movies API"]
 }
 ]
