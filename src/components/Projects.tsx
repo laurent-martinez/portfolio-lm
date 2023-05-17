@@ -64,7 +64,7 @@ if(jsonData.length == 0) {
                             
                         <Image
                         draggable={false} 
-                        src={project.img}  alt={project.title} className='min-h-[100px] min-w-[200px] md:h-[360px] md:w-[640px] mx-0  sm:flex mt-0 pt-0 shadow-xl dark:shadow-[#F7AB0A]/30 ' width={640} height={360}/>
+                        src={project.img} placeholder='blur' blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8vporDQAGYQIU3J0lCgAAAABJRU5ErkJggg=='  alt={project.title} className='min-h-[100px] min-w-[200px] md:h-[360px] md:w-[640px] mx-0  sm:flex mt-0 pt-0 shadow-xl dark:shadow-[#F7AB0A]/30 ' width={640} height={360}/>
                         {/* <Image src={project.imgMobile} alt='photo mobile' width={170} height={360} className='w-[85px] h-[180px] shadow-xl dark:shadow-[#F7AB0A]/30  sm:hidden mt-0 pt-0'/>
                         <Image src={project.imgTablet} alt='photo tablet' width={387} height={408} className='hidden sm:flex lg:hidden w-[258px] h-[272px] mt-0 pt-0 shadow-xl dark:shadow-[#F7AB0A]/30'/>  */}
                         </div>

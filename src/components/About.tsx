@@ -20,6 +20,8 @@ export default function About({}: Props) {
         <h3 className='absolute top-14 sm:top-10 uppercase tracking-[10px] sm:tracking-[20px] text-gray-500 text-2xl'>{t('About.title')}</h3>
         <Image
         src={image}
+        placeholder='blur'
+        blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8vporDQAGYQIU3J0lCgAAAABJRU5ErkJggg=='
         onContextMenu={(e) => e.preventDefault()}
         onSelect={(e) => e.preventDefault()}
         onMouseEnter={!isMobile ? ()=>setImage(AboutPic) : undefined }
